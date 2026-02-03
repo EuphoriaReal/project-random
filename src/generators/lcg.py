@@ -1,6 +1,6 @@
 
 def lcg(seed, a, c, m):
-    results = []
+    results = [seed]
     
     for i in range(10):
         seed = (a * seed + c) % m
